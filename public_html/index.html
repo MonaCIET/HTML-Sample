@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Welcome page</title>
+        <link rel="stylesheet"type="text/css" href="mystyle.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="page-header">
+                <h1 id="main-heading">Application Form </h1>
+            </div>
+
+            <div id="page-container">
+               <form action="index.html" method="get">
+
+                    <div class="row">
+                        <label for="username">UserName</label> :
+                        <input type="text" name="username" id="username" value="" />
+                    </div>
+                    <div class="row">
+                        <label for="account_no">Account No</label> :
+                        <input type="text" name="account_no" id="account_no" value="" />
+                    </div>
+                    <div class="row">
+                        <label for="email">Email</label> :
+                        <input type="email" required="" name="email" id="email" value="" />
+                    </div>
+                    <div class="row">
+                        <label for="account_no">Password</label> :
+                        <input type="password" name="password" id="password" value="" />
+                    </div>
+                    <div class="row">
+                        <label for="confirmpassword">Confirm Password</label> :
+                        <input type="password" required="" name id="confirmpassword" id="confirmpassword" value="" />
+                    </div>
+                    <div class="row">
+                        <label for="selectcompany">Select Company</label> :
+                        <input type="text" name="Selectcompany" value="" />
+                        <div class="menu">
+                            <li>IBM</li>
+                            <li>Microsoft</li>
+                            <li>Assistanz</li>
+                            <li>Cisco</li>
+                            <li>CTS</li>
+                            <li>TCS</li>
+                            <li>Accenture</li>
+                        </div>
+                        <div class="row">
+                            <label for="select_interview_location">Select Location</label> :  </div>
+                        <div class="drop">
+                            <select name="Select Location" size="5" multiple="multiple">
+                                <option value="Chennai">Chennai</option>
+                                <option value="Bangalore">Bangalore</option>
+                                <option value="Hydrebad">Hydrebad</option>
+                                <option value="Cochin">Cochin</option>
+                                <option value="Mumbai">Mumbai</option>
+                                <option value="Coimbatore">Coimbatore</option>
+                            </select>
+                            </div>
+                            <div class="row">
+                              <a href="thankyou.html">  <input type="submit" name="submit" value="submit" /></a>
+                            </div>
+                            </form>
+
+
+                        </div>
+                    </div>
+                    </div>
+
+                    </body>
+                    </html>

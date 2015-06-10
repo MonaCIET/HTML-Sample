@@ -1,0 +1,55 @@
+#container {
+    width: 100%;
+    /*height: 1000px;*/
+    border: #ddd 1px solid;
+    
+}
+
+
+#page-header { 
+    text-align:center;
+    border:0px solid #ddd;
+    background-color:windowframe;
+
+}
+
+#page-container { 
+    white-space:nowrap;
+    alignment-content: center;
+    text-indent:50px;
+    background-color:goldenrod;
+    
+}
+
+.row {
+    width:100%;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.row > label {
+    width:200px;
+    color:black;
+    display: inline-block;
+    font-family:fantasy;
+    font-size:large;
+    padding-left: 25px;
+    
+}
+
+.menu {
+    font-family:sans-serif;
+    /*width:100px;*/
+    margin:0px auto;
+    padding-top: 10px;
+    padding-left: 250px;
+    padding-bottom: 10px;
+     list-style-type: square;
+     
+}
+
+.drop{
+    padding-left: 250px;
+    padding-bottom: 20px;
+}
